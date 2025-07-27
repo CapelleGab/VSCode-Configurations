@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+  "workbench.colorTheme": "Tokyo Night Gogh",
   "workbench.activityBar.location": "hidden",
   "workbench.editor.showTabs": "single",
   "workbench.startupEditor": "none",
@@ -7,7 +7,6 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "workbench.sideBar.location": "right",
-  "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.smoothScrolling": true,
@@ -17,8 +16,8 @@
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "explorer.decorations.badges": false,
-  "git.decorations.enabled": false,
+  "explorer.decorations.badges": true,
+  "git.decorations.enabled": true,
   "window.zoomLevel": 3,
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
@@ -98,7 +97,7 @@
   "editor.hover.enabled": false,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-  "scm.diffDecorations": "none",
+  "scm.diffDecorations": "gutter",
   "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
@@ -128,5 +127,9 @@
   "workbench.statusBar.visible": false,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "symbols.hidesExplorerArrows": false,
+  "makefile.configureOnOpen": true,
+  "workbench.iconTheme": "symbols",
+  "diffEditor.ignoreTrimWhitespace": false
 }
